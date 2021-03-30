@@ -18,12 +18,3 @@ dict2 = {'d': 6, 'c': 4}
 
 print(merge2(dict1,dict2))
 
-# Method 3 - using |
-
-def merge3(dict1,dict2):
-    temp = dict1 | dict2
-    return temp
-
-dict1 = {'a': 10, 'b': 8}
-dict2 = {'d': 6, 'c': 4}
-print(merge3(dict1,dict2))
